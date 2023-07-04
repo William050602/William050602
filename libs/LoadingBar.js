@@ -6,7 +6,7 @@ class LoadingBar{
 		this.domElement.style.left = '0';
 		this.domElement.style.width = '100%';
 		this.domElement.style.height = '100%';
-		this.domElement.style.background = '#000';
+		this.domElement.style.background = '#8800c6';
 		this.domElement.style.opacity = '0.7';
 		this.domElement.style.display = 'flex';
 		this.domElement.style.alignItems = 'center';
@@ -16,7 +16,7 @@ class LoadingBar{
 		barBase.style.background = '#aaa';
 		barBase.style.width = '50%';
 		barBase.style.minWidth = '250px';
-		barBase.style.borderRadius = '10px';
+		barBase.style.borderRadius = '30px';
 		barBase.style.height = '15px';
 		this.domElement.appendChild(barBase);
 		const bar = document.createElement("div");
